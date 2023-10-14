@@ -11,6 +11,7 @@ Given Launch the Url
    And Pass the Value to the Password Field
    Then Click the Login 
      And Select the city
+     And project TakeScreenshot
      
      
      @smoke @regression
@@ -20,6 +21,7 @@ Given Launch the Url
    And Pass the Value to the Password Field
    Then Click the Login 
      And Select the city
+       And project TakeScreenshot
 
     
     @test
@@ -29,6 +31,7 @@ Given Launch the Url
    And Pass the Value to the Password Field "<password>"
    Then Click the Login 
      And Select the city "<city>"
+       And project TakeScreenshot
      
      Examples:
 		|username     | password | city |
